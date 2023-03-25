@@ -1,9 +1,6 @@
 import scrapy
 from scrapy.pipelines.images import ImagesPipeline
-
-
-class PlateScraperPipeline:
-    pass
+import os
 
 
 class CustomImagesPipeline(ImagesPipeline):
