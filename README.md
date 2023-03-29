@@ -7,4 +7,8 @@
 - [ ] https://znalezionetablice.pl/a-polska
 
 
+To run scraper (in `plate_scraper/plate_scrape` folder) type:
+```scrapy crawl plates```
+
+
 
