@@ -27,3 +27,5 @@ Thumbs.db
 
 # OSX miscellaneous
 .DS_Store
+*/images
+.ipynb_checkpoints/
