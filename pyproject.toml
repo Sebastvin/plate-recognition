@@ -10,6 +10,7 @@ packages = [{include = "plate_recognition"}]
 python = "^3.11"
 scrapy = "^2.8.0"
 pillow = "^9.4.0"
+opencv-python = "^4.7.0.72"
 
 
 [build-system]
