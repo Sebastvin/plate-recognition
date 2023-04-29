@@ -10,6 +10,8 @@ packages = [{include = "plate_recognition"}]
 python = "^3.11"
 scrapy = "^2.8.0"
 pillow = "^9.4.0"
+jupyterlab = "^3.6.3"
+scikit-learn = "^1.2.2"
 
 
 [build-system]
