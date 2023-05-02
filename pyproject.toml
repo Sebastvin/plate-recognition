@@ -7,9 +7,17 @@ readme = "README.md"
 packages = [{include = "plate_recognition"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.10,<3.12"
 scrapy = "^2.8.0"
 pillow = "^9.4.0"
+jupyterlab = "^3.6.3"
+tensorflow = "^2.12.0"
+labelbox = {extras = ["data"], version = "^3.45.0"}
+update = "^0.0.1"
+opencv-python = "^4.7.0.72"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+requests = "^2.29.0"
 
 
 [build-system]
