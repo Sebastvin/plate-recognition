@@ -34,3 +34,6 @@ Thumbs.db
 
 
 config.py
+
+**/temp_images/
+**/yolo_format_plate/
