@@ -17,6 +17,7 @@ update = "^0.0.1"
 opencv-python = ">=4.1.1"
 matplotlib = ">=3.3"
 scikit-learn = "^1.2.2"
+
 requests = ">=2.23.0"
 black = "^23.3.0"
 gitpython = ">=3.1.30"
@@ -29,6 +30,7 @@ pandas = ">=1.1.4"
 seaborn = ">=0.11.0"
 torch = "^2.0.0"
 ipython = "^8.13.1"
+
 
 
 [build-system]
