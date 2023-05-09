@@ -29,4 +29,3 @@ Thumbs.db
 .DS_Store
 */images
 .ipynb_checkpoints/
-libraries/tensorflow/download_labels.py
