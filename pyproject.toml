@@ -12,6 +12,14 @@ scrapy = "^2.8.0"
 pillow = "^9.4.0"
 jupyterlab = "^3.6.3"
 scikit-learn = "^1.2.2"
+torch = "^2.0.1"
+opencv-python = "^4.7.0.72"
+pandas = "^2.0.1"
+torchvision = "^0.15.2"
+tqdm = "^4.65.0"
+ultralytics = "^8.0.106"
+yolov5 = "^7.0.12"
+ipywidgets = "^8.0.6"
 
 
 [build-system]
