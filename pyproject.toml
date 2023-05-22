@@ -7,9 +7,10 @@ readme = "README.md"
 packages = [{include = "plate_recognition"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10 || ^3.11"
 scrapy = "^2.8.0"
 pillow = "^9.4.0"
+jupyterlab = "^4.0.0"
 
 
 [build-system]

@@ -10,7 +10,11 @@
 To run scraper (in `plate_scraper/plate_scrape` folder) type:
 ```scrapy crawl plates```
 
+# How set up project?
 
+1. Clone project
+2. Run ```poetry shell env```
+3. Run ```poetry install```
 
 # Pre-push rules
 ####  1. Add comments to your code, simple and short
