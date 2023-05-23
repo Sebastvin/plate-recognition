@@ -1,6 +1,7 @@
 import labelbox
 import json
 import secret
+import os
 
 
 # Enter your Labelbox API key here
@@ -15,5 +16,5 @@ labels = project.export_labels(download=True, start="2023-04-02", end="2023-05-0
 labels_json = json.dumps(labels)
 
 # Save to a file
-with open('datasets/labels.json', 'w') as out:
+with open(os.path.join('datasets', 'labels.json'), 'w') as out:
     out.write(labels_json)

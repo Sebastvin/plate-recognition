@@ -11,6 +11,8 @@ python = "^3.11"
 scrapy = "^2.8.0"
 pillow = "^9.4.0"
 opencv-python = "^4.7.0.72"
+scikit-learn = "^1.2.2"
+labelbox = "^3.46.0"
 
 
 [build-system]
