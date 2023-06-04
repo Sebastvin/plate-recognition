@@ -1041,6 +1041,16 @@ files = [
 ]
 
 [[package]]
+name = "imutils"
+version = "0.5.4"
+description = "A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3."
+optional = false
+python-versions = "*"
+files = [
+    {file = "imutils-0.5.4.tar.gz", hash = "sha256:03827a9fca8b5c540305c0844a62591cf35a0caec199cb0f2f0a4a0fb15d8f24"},
+]
+
+[[package]]
 name = "incremental"
 version = "22.10.0"
 description = "\"A small library that versions your Python projects.\""
@@ -1508,6 +1518,7 @@ jupyterlab-server = ">=2.19,<3.0"
 nbclassic = "*"
 notebook = "<7"
 packaging = "*"
+tomli = {version = "*", markers = "python_version < \"3.11\""}
 tornado = ">=6.1.0"
 
 [package.extras]
@@ -3625,6 +3636,17 @@ requests = ">=2.1.0"
 requests-file = ">=1.4"
 
 [[package]]
+name = "tomli"
+version = "2.0.1"
+description = "A lil' TOML parser"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
+    {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
+]
+
+[[package]]
 name = "torch"
 version = "2.0.1"
 description = "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
@@ -4192,5 +4214,5 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.11"
-content-hash = "dae6379453724843db907ae5d314133c4c08668f8063951dd2f8f41e000cd0fb"
+python-versions = "^3.10 || ^3.11"
+content-hash = "c76dde1f8f4052f5b210fe55dec8c96dbedcfeb8bd2acc6475b58eb03758f5c2"
