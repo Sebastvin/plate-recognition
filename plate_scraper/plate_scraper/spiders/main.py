@@ -14,7 +14,6 @@ class CarsPlateSpider(scrapy.Spider):
     custom_settings = {
         "ITEM_PIPELINES": {"plate_scraper.pipelines.CustomImagesPipeline": 1},
         "IMAGES_STORE": "images",
-        # "LOG_LEVEL": logging.DEBUG,
     }
 
     def parse(self, response):
