@@ -8,8 +8,11 @@ import shutil
 
 class CarsPlateSpider(scrapy.Spider):
     name = "plates"
-    generic_url = "https://tablica-rejestracyjna.pl/komentarze?p=",
-    start_urls = [f"https://tablica-rejestracyjna.pl/komentarze?p={num_page}" for num_page in range(201, 500)]
+    generic_url = ("https://tablica-rejestracyjna.pl/komentarze?p=",)
+    start_urls = [
+        f"https://tablica-rejestracyjna.pl/komentarze?p={num_page}"
+        for num_page in range(201, 500)
+    ]
 
     custom_settings = {
         "ITEM_PIPELINES": {"plate_scraper.pipelines.CustomImagesPipeline": 1},
